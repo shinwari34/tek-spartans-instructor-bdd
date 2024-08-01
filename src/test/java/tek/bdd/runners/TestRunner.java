@@ -1,4 +1,4 @@
-package runners;
+package tek.bdd.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
