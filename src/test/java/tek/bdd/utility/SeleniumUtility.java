@@ -10,6 +10,7 @@ import tek.bdd.base.BaseSetup;
 import java.time.Duration;
 
 
+
 public class SeleniumUtility extends BaseSetup {
 
     private WebDriverWait getWait() {

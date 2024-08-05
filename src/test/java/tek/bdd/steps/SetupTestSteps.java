@@ -19,5 +19,4 @@ public class SetupTestSteps extends SeleniumUtility {
         Assert.assertTrue(isSignInBtnEnabled);
     }
 
-
 }
