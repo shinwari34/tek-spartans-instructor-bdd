@@ -5,6 +5,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import tek.bdd.pages.AccountPage;
 import tek.bdd.pages.SignUpPage;
+import tek.bdd.utility.RandomGenerator;
 import tek.bdd.utility.SeleniumUtility;
 
 import java.util.Random;
