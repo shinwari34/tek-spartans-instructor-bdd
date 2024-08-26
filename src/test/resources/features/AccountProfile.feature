@@ -3,7 +3,7 @@ Feature: Account profile feature
   Background: Login to to account and setups
     Given user click on "Sign in" link
     Then validate user is in sign in page
-    When user enter "najeebullah.shinwari34@gmail.com" on "Email" field
+    When user enter "najeebullah34@gmail.com" on "Email" field
     When user enter "Password@123" on "Password" field
     When user click on "Login" button
     Then user should be able to see account link
