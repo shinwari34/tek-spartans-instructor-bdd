@@ -5,7 +5,7 @@ Feature: Security tests scenarios
   Scenario: validate sign in functionality with valid credential
     When user click on sign in link
     Then validate user is in sign in page
-    When user enter "najeebullah34@gmail.com" and "Password@123" and click on login
+    When user enter "najeebullah9742@gmail.com" and "Password@123" and click on login
     Then user should be able to see account link
 
   Scenario Outline: Validate sign in with invalid credentials
@@ -16,5 +16,5 @@ Feature: Security tests scenarios
     Examples:
       | username               | password      |
       | invalid@gmail.com      | Password@123  |
-      | najeebullah34@gmail.com | WrongPassword |
+      | najeebullah9742@gmail.com | WrongPassword |
       | invalid@gmail.com      | WrongPassword |
