@@ -11,7 +11,7 @@ Feature: Create new account functionality
   @UsingMap
   Scenario: Using a Map as Data Table
     When user enter new account info
-      | name     | Mohammad     |
+      | name     | Najeebullah    |
       | email    | random       |
       | password | Password@123 |
     When user click on "Sign Up" button
@@ -21,7 +21,7 @@ Feature: Create new account functionality
   @UsingList
   Scenario: Using List as Data Table
     When user enter new account info using list Data
-      | Mohammad     |
+      | Najeebullah     |
       | random       |
       | Password@123 |
     When user click on "Sign Up" button
@@ -42,7 +42,7 @@ Feature: Create new account functionality
     When user enter new account as list of maps
       | name     | email  | password     |
       | John     | random | John@123     |
-      | Mohammad | random | Password@123 |
+      | Najeebullah | random | Password@123 |
     When user click on "Sign Up" button
     Then validate user is in account page
     Then validate email address in account page match

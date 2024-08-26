@@ -14,13 +14,11 @@ import tek.bdd.browsers.ChromeBrowser;
 import tek.bdd.browsers.EdgeBrowser;
 import tek.bdd.browsers.FireFoxBrowser;
 
-import javax.swing.plaf.metal.MetalLookAndFeel;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
-
 
 
 public abstract class BaseSetup {
